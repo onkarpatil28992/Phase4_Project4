@@ -1,0 +1,18 @@
+<div class="container text-light bg-gradient py-5 ">
+    <h1 class="display-5 fw-bold">Welcome to Quiz</h1>
+    <p class="col-md-8 fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, mollitia.</p>
+    <h4>Rules:</h4>
+    <ol>
+        <li>Right answer gives you points</li>
+        <li>Wrong answer takes your points</li>
+        <li>Answer in 10 seconds </li>
+        <li>Don't refresh this page until quiz is submitted</li>
+    </ol>
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;text-align: center">Best of luck</h1>
+    <div class="name col-md-4 my-3">
+        <label for="">Enter your name</label>
+        <input #name type="text" class="form-control">
+
+    </div>
+    <button class="btn btn-danger btn-lg" routerLink="/question" (click)="startQuiz()">Start Now</button> 
+</div>

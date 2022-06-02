@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ChangeBgDirective } from './change-bg.directive';
 
+
 @NgModule({
   declarations: [
     AppComponent,
